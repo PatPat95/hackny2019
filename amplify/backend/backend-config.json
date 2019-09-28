@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"hackny20195aefafa8": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
