@@ -7,7 +7,7 @@ import routes from './routes'
 import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
 import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
-
+//seomthing
 Amplify.configure(awsconfig);
 
 const User = (params) => {
