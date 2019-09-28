@@ -32,5 +32,22 @@
                 "hackny20195aefafa8": {}
             }
         }
+    },
+    "alan": {
+        "awscloudformation": {
+            "AuthRoleName": "hackny2019-20190928185959-authRole",
+            "UnauthRoleArn": "arn:aws:iam::163683266096:role/hackny2019-20190928185959-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::163683266096:role/hackny2019-20190928185959-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "hackny2019-20190928185959-deployment",
+            "UnauthRoleName": "hackny2019-20190928185959-unauthRole",
+            "StackName": "hackny2019-20190928185959",
+            "StackId": "arn:aws:cloudformation:us-east-1:163683266096:stack/hackny2019-20190928185959/b25398a0-e243-11e9-868c-12ece74fd46e"
+        },
+        "categories": {
+            "auth": {
+                "hackny20195aefafa8": {}
+            }
+        }
     }
 }
