@@ -15,12 +15,6 @@ const User = (params) => {
 }
 
 class App extends Component {
-  state = {
-    loggedIn:false
-  }
-  loginHandle = () => {
-    this.setState({loggedIn:true})
-  }
 
   render() {
     return (
@@ -54,4 +48,5 @@ class App extends Component {
     );
   } 
 }
-export default withAuthenticator(App, true);
+
+export default App;
