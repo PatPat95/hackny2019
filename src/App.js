@@ -3,12 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Link, NavLink, Redirect} from 'react-router-dom';
 import Route from 'react-router-dom/Route'
-import routes from './routes'
-import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports';
-import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
-
-Amplify.configure(awsconfig);
 
 const User = (params) => {
   return ( <h1> Welcome User {params.username} </h1>)
@@ -54,4 +48,5 @@ class App extends Component {
     );
   } 
 }
-export default withAuthenticator(App, true);
+
+export default App;
