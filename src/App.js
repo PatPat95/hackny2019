@@ -10,6 +10,7 @@ import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-
 //seomthing
 Amplify.configure(awsconfig);
 
+<<<<<<< HEAD
 const User = (params) => {
   return ( <h1> Welcome User {params.username} </h1>)
 }
@@ -47,6 +48,16 @@ class App extends Component {
       </Router>
     );
   } 
+=======
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>Testing shit</h1>
+      </div>
+    );
+  }
+>>>>>>> 04851253088eaff38bdd3354b2c1bccff8b2fdb9
 }
 
 export default App;
