@@ -5,9 +5,12 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div classname="App">
-        <h1>Testing push</h1>
-      </div>
+      <menu>
+        <Menu.Item>Menu</Menu.Item>
+        <SubMenu title="SubMenu">
+          <Menu.Item>SubMenuItem</Menu.Item>
+        </SubMenu>
+      </menu>
     );
   }
 }
