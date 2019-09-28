@@ -28,17 +28,16 @@ class App extends Component {
         </li>
       </ul>
 
-      <input type="button" value = "log in" onClick = {this.loginHandle.bind(this)}/>
+      {/*<input type="button" value = "log in" onClick = {this.loginHandle.bind(this)}/>*/}
         <Route path ="/" exact render = {()=> {
           return ( <h1>Welcome Home</h1>)
         }} />
         <Route path ="/settings" exact render = {()=> {
           return ( <h1>Settings </h1>)
         }} />
-        <Route path ="/user/:username" exact render={({match}) =>(
-          this.state.loggedIn ? (<User username = {match.params.username}
-          />) : (<Redirect to ="/" /> )
-        )} />
+        <Route path ="/user/:username" exact render={() =>{
+          return ( <h1>Hello User </h1>)
+        }} />
       </div>
       </Router>
     );

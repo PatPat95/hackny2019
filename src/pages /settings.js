@@ -1,4 +1,4 @@
-import react from 'react'
+import React, {Component} from 'react';
 import { Form, Input, Button, Radio } from 'antd';
 
 class FormLayoutDemo extends React.Component {
