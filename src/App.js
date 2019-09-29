@@ -24,8 +24,8 @@ class App extends Component {
       <Router>
       <div>
           <Switch>
-            <Route path="/" component={RealHomePage} />
-            <Route path="/user/:userid" component={Home} exact />
+            <Route path="/home" component={RealHomePage} />
+            <Route path="/user/:userid" component={Home} />
             <Route path="/about" component={FormLayoutDemo} />
             <Route path="/contact" component={Contact} />
             <Route component={Error} />
