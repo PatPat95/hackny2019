@@ -6,6 +6,8 @@
     "aws-amplify": "^1.1.40",
     "aws-amplify-react": "^2.4.4",
     "nodemon": "^1.19.2",
+    "qrcode": "^1.4.2",
+    "qrcode.react": "^0.9.3",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
     "react-router-dom": "^5.1.1",

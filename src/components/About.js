@@ -1,5 +1,15 @@
 import React, {Component} from 'react';
 import { Form, Input, Button, Radio } from 'antd';
+import ReactDOM from 'react-dom';
+import 'antd/dist/antd.css';
+
+const About = () => {
+  return (
+    <div>
+      <p>About</p>
+    </div>
+  );
+};
 
 class FormLayoutDemo extends React.Component {
   constructor() {
@@ -53,4 +63,4 @@ class FormLayoutDemo extends React.Component {
   }
 }
 
-ReactDOM.render(<FormLayoutDemo />, mountNode);
+export default FormLayoutDemo;
