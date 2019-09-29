@@ -5,8 +5,8 @@ import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
 import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
 
-import Home from "./components/home";
-import RealHomePage from "./components/realHomePage";
+import Home from "./page/home";
+import RealHomePage from "./page/realHomePage";
 import FormLayoutDemo from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
@@ -26,10 +26,10 @@ class App extends Component {
       <Router>
       <div>
           <Switch>
-            <Route path="/" component={RealHomePage} />
-            <Route path="/user/:userid" component={Home} exact />
-            <Route path="/about" component={FormLayoutDemo} />
-            <Route path="/contact" component={Contact} />
+            <Route exact path="/" component={RealHomePage}/>
+            <Route exact path="/user/:userid" component={Home}/>
+            <Route exact path="/about" component={FormLayoutDemo}/>
+            <Route exact path="/contact" component={Contact}/>
             <Route component={Error} />
           </Switch>
         </div>
