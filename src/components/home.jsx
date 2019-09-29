@@ -5,6 +5,7 @@ var QRCode = require('qrcode.react');
 class Home extends React.Component {
     state = {
         visible: false,
+        userId: this.props.userid
       };
     
       showModal = () => {
@@ -43,9 +44,9 @@ class Home extends React.Component {
                     saveFormRef={this.saveFormRef}
                 />
                 <div>
-                    user's name
+                    user's name: {this.state.userId}
                 </div>
-                <QRCode value="http://facebook.github.io/react/" />
+                <QRCode value="https://linkedin.com/in/jiajern" />
                 <HomeComponent />
             </div>
         )
