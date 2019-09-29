@@ -1,5 +1,5 @@
 import React from 'react';
-import CollectionsPage from './addContact';
+import CollectionsPage from '../components/addContact';
 import { Auth } from 'aws-amplify';
 
 
