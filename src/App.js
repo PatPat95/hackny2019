@@ -11,6 +11,7 @@ import FormLayoutDemo from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Navigation from "./components/Navigation";
+import Menu from "./components/menu";
 
 Amplify.configure(awsconfig);
 
@@ -21,6 +22,7 @@ const User = (params) => {
 class App extends Component {
   render() {
     return (
+      <div>
       <Router>
       <div>
           <Switch>
@@ -32,6 +34,8 @@ class App extends Component {
           </Switch>
         </div>
       </Router>
+      <Menu/>
+      </div>
     );
   } 
 }
