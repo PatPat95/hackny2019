@@ -36,13 +36,13 @@ class Home extends React.Component {
     render() {
         return(
             <div>
-                <CollectionsPage
+                {/* <CollectionsPage
                     showModal = {this.showModal}
                     handleCancel = {this.handleCancel}
                     handleCreate = {this.handleCreate}
                     visible = {this.state.visible}
                     saveFormRef={this.saveFormRef}
-                />
+                /> */}
                 <div>
                     user's name: {this.state.userId}
                 </div>
