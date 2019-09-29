@@ -25,9 +25,9 @@ export default function SimpleBottomNavigation() {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+      <BottomNavigationAction label="My Cards" icon={<RestoreIcon />} />
+      <BottomNavigationAction label="Collected Cards" icon={<FavoriteIcon />} />
+      <BottomNavigationAction label="Scan" icon={<LocationOnIcon />} />
     </BottomNavigation>
   );
 }
