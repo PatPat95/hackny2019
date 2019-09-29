@@ -2,9 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import RestoreIcon from '@material-ui/icons/Restore';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import CropFreeIcon from '@material-ui/icons/CropFree';
+import RecentActorsIcon from '@material-ui/icons/RecentActors';
+import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
 
 const useStyles = makeStyles({
   root: {
@@ -25,9 +25,9 @@ export default function SimpleBottomNavigation() {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction label="My Cards" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Collected Cards" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Scan" icon={<LocationOnIcon />} />
+      <BottomNavigationAction label="My Cards" icon={<AccountBalanceWalletIcon />} />
+      <BottomNavigationAction label="Collected Cards" icon={<RecentActorsIcon />} />
+      <BottomNavigationAction label="Scan"icon={<CropFreeIcon />} />
     </BottomNavigation>
   );
 }
