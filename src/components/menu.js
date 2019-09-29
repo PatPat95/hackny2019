@@ -23,7 +23,6 @@ export default function SimpleBottomNavigation(props) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
-
   return (
     <div>
     
