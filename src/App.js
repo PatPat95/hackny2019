@@ -6,7 +6,7 @@ import awsconfig from './aws-exports';
 import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
 
 import Home from "./components/home";
-import RealHomePage from "./components/home";
+import RealHomePage from "./components/realHomePage";
 import FormLayoutDemo from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
